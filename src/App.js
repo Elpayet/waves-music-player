@@ -1,8 +1,10 @@
+import React, { useState } from "react";
+
 import Player from "./components/Player";
 import Song from "./components/Song";
 import Nav from "./components/Nav";
+
 import data from "./utils/data";
-import React, { useState } from "react";
 import "./styles.css";
 
 export default function App() {
@@ -28,7 +30,7 @@ export default function App() {
   };
 
   return (
-    <div className="App">
+    <div className="block w-full">
       <div className="wmp-container relative block bg-gray-200">
         <Nav isLibraryOpen={isLibraryOpen} toggleLibrary={toggleLibrary} />
         <Song
