@@ -1,0 +1,93 @@
+.player{
+    /*background-color: lightcoral;*/
+    padding: 2rem 2rem;
+    min-height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time_control {
+    display: flex;
+    width: 100%;
+    /*background-color: lightgreen;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.time_control input {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.time_control input:focus {
+    outline: none;
+}
+
+.time_control input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+}
+
+.time_control input::-moz-range-thumb {
+    -webkit-appearance: none;
+    background: transparent;
+    border: none;
+}
+
+.track {
+    height: 10px;
+    width: 100%;
+    background: lightsteelblue;
+    position: relative;
+    border-radius: 1rem;
+}
+
+.animateTrack {
+    border-radius: 1rem;
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(204,204,204);
+    pointer-events: none;
+    transition: all ease 0.5s;
+}
+
+.thumbTrack {
+    position: relative;
+    top: -3px;
+    left: -8px;
+    height: 16px;
+    width: 16px;
+    background: lightcoral;
+    border-radius: 1rem;
+    pointer-events: none;
+    transition: all ease 0.5s;
+}
+
+.time_control p {
+    width: 20%;
+    text-align: center;
+}
+
+.play_control {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.play_control svg {
+    cursor: pointer;
+    margin: 0 15px;
+}

@@ -1,0 +1,21 @@
+.navigation {
+    min-height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation button {
+    background-color: transparent;
+    border: 2px solid rgb(65,65,65);
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+    border-radius: 7px;
+}
+
+.navigation button:hover {
+    background: rgb(65,65,65);
+    color: whitesmoke;
+}
