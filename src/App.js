@@ -31,7 +31,7 @@ export default function App() {
 
   return (
     <div className="block w-full">
-      <div className="wmp-container relative block bg-gray-200">
+      <div className="bg-gray-200 max-w-screen-lg m-auto">
         <Nav isLibraryOpen={isLibraryOpen} toggleLibrary={toggleLibrary} />
         <Song
           isPlaying={isPlaying}

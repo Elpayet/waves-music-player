@@ -35,8 +35,8 @@ const Song = ({
         } rounded-3xl `}
         src={currentSong.cover}
       />
-      <h2 className="xs:text-2xl">{currentSong.name}</h2>
-      <h3 className="text-xs xs:text-base">{currentSong.artist}</h3>
+      <h2 className="text-2xl xs:text-3xl sm:text-4xl">{currentSong.name}</h2>
+      <h3 className="text-xs xs:text-base sm:text-lg">{currentSong.artist}</h3>
     </div>
   );
 };

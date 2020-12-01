@@ -1,5 +1,4 @@
 .player{
-    /*background-color: lightcoral;*/
     padding: 2rem 2rem;
     min-height: 5rem;
     display: flex;
@@ -11,7 +10,6 @@
 .time_control {
     display: flex;
     width: 100%;
-    /*background-color: lightgreen;*/
     align-items: center;
     justify-content: center;
 }
